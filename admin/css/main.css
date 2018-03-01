@@ -1,0 +1,21 @@
+body
+{ text-align: center;
+  background: url(../../includes/background.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+form{
+
+
+}
+label
+{
+  font-size: 30px;
+}
+
+
+h1
+{
+  font-size: 80px;
+}

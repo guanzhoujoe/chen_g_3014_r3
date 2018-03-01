@@ -18,7 +18,7 @@ $loginstring = "SELECT * FROM tbl_user WHERE user_name = '{$username}' AND user_
 
 			if($found_user['user_times'] == 1)
 			{
-				$updatestring = "UPDATE tbl_user SET user_times = '3' WHERE user_id={$id}";
+				$updatestring = "UPDATE tbl_user SET user_times = '3' WHERE user_id={$id}";//set db with different then we can go other dircetion/
 				$updatequery = mysqli_query($link, $updatestring);
 				redirect_to("admin_edituser.php");
 			}else {

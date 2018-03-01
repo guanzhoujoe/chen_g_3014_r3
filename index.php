@@ -21,6 +21,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Welcome to the Finest Selection of Blu-rays on the internets!</title>
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<?php
